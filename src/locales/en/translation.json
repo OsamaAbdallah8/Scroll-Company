@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "contact": "Contact Us",
+    "cta": "Start Project",
+    "brand": "Scroll"
+  },
+  "hero": {
+    "badge": "Available for new projects",
+    "title1": "We Build Digital",
+    "title2": "Experiences",
+    "subtitle": "We are a team of creators and engineers building world-class websites and web applications combining design aesthetics with high performance.",
+    "cta1": "Start Project",
+    "cta2": "View Work",
+    "performance": "Performance"
+  },
+  "about": {
+    "title_from": "About",
+    "title_to": "Us",
+    "desc": "We are a team of passionate developers and designers aiming to deliver innovative and advanced software solutions. We believe that stunning design and a seamless user experience are the key to success for any modern digital project. Therefore, we focus on the finest details to build applications and websites that exceed our clients' expectations and keep them ahead."
+  },
+  "services": {
+    "title1": "Our",
+    "title2": "Services",
+    "desc": "We offer a comprehensive set of digital solutions to drive your business towards success.",
+    "s1_title": "Web Development",
+    "s1_desc": "Modern and fast websites compatible with all devices providing an exceptional user experience.",
+    "s2_title": "E-Commerce Stores",
+    "s2_desc": "Integrated e-commerce solutions with payment gateways and easy product management.",
+    "s3_title": "UI/UX Design",
+    "s3_desc": "Stunning user interface designs and unforgettable experiences that keep users engaged.",
+    "s4_title": "Branding",
+    "s4_desc": "Building a strong visual identity that reflects your brand values and sets you apart from competitors.",
+    "s5_title": "SEO & Optimization",
+    "s5_desc": "Search engine optimization to increase organic traffic and sales sustainably.",
+    "s6_title": "Management Systems",
+    "s6_desc": "Advanced dashboards to manage your business, employees, and clients easily and securely."
+  },
+  "projects": {
+    "title1": "Our Latest",
+    "title2": "Work",
+    "desc": "Browse a selection of projects we have recently completed for our clients in various sectors at world-class standards.",
+    "view_all": "View All",
+    "p1_category": "E-Commerce",
+    "p2_category": "Management System",
+    "p3_category": "Landing Page",
+    "p4_category": "Web App"
+  },
+  "stats": {
+    "s1_label": "Completed Projects",
+    "s2_label": "Happy Clients",
+    "s3_label": "Years of Experience",
+    "s4_label": "Success Rate"
+  },
+  "testimonials": {
+    "title1": "Client",
+    "title2": "Testimonials",
+    "desc": "Our clients' trust is the true measure of our success.",
+    "t1_content": "An exceptional experience from start to finish. High professionalism in dealing and matchless code quality. I highly recommend working with them.",
+    "t1_role": "CEO of TechCorp",
+    "t1_name": "Ahmed Mahmoud",
+    "t2_content": "The store design exceeded our expectations by far. High performance and a seamless user experience helped double our sales in the first month.",
+    "t2_role": "Founder of BeautyLine",
+    "t2_name": "Sarah Khaled",
+    "t3_content": "A creative and professional team. High commitment to deadlines and continuous communication to guarantee the best project output.",
+    "t3_role": "Marketing Director at Global",
+    "t3_name": "Mohamed Abdullah"
+  },
+  "footer": {
+    "desc": "We build exceptional digital experiences for the future, helping leading companies stand out in the fast-paced digital landscape.",
+    "explore": "Explore",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "location_val": "Palestine - Qalqilya",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  }
+}
