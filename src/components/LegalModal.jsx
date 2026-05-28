@@ -44,11 +44,15 @@ const LegalModal = ({ isOpen, onClose, title, content }) => {
               {/* Content area with scroll */}
               <div className="p-6 md:p-8 max-h-[60vh] overflow-y-auto custom-scrollbar">
                 <div className="space-y-4">
-                  {content.map((paragraph, index) => (
+                  {Array.isArray(content) ? content.map((paragraph, index) => (
                     <p key={index} className="text-white/70 leading-relaxed text-lg font-light">
                       {paragraph}
                     </p>
-                  ))}
+                  )) : (
+                    <p className="text-white/70 leading-relaxed text-lg font-light">
+                      {content}
+                    </p>
+                  )}
                 </div>
               </div>
               
