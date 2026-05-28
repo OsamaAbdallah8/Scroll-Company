@@ -21,7 +21,7 @@
   "about": {
     "title_from": "About",
     "title_to": "Us",
-    "desc": "We are a team of passionate developers and designers aiming to deliver innovative and advanced software solutions. We believe that stunning design and a seamless user experience are the key to success for any modern digital project. Therefore, we focus on the finest details to build applications and websites that exceed our clients' expectations and keep them ahead."
+    "desc": "We are a passionate digital team building modern performance-driven websites and e-commerce stores, focusing on aesthetics, user experience, and delivering contemporary solutions that help projects grow."
   },
   "services": {
     "title1": "Our",
@@ -43,32 +43,33 @@
   "projects": {
     "title1": "Our Latest",
     "title2": "Work",
-    "desc": "Browse a selection of projects we have recently completed for our clients in various sectors at world-class standards.",
+    "desc": "Browse a selection of concept projects and interface models we've developed to showcase modern design and user experiences.",
     "view_all": "View All",
     "p1_category": "E-Commerce",
     "p2_category": "Management System",
     "p3_category": "Landing Page",
     "p4_category": "Web App"
   },
+  "why_us": {
+    "title1": "Why",
+    "title2": "Us?",
+    "desc": "We focus on delivering real value through excellence in every aspect of our work.",
+    "f1": "Contemporary Designs",
+    "f2": "Fast Performance & Smooth UX",
+    "f3": "Attention to Detail",
+    "f4": "Startup-Friendly Solutions"
+  },
   "stats": {
-    "s1_label": "Completed Projects",
-    "s2_label": "Happy Clients",
-    "s3_label": "Years of Experience",
-    "s4_label": "Success Rate"
+    "s1": "Modern Digital Solutions",
+    "s2": "Contemporary Designs",
+    "s3": "Fast Execution",
+    "s4": "Excellent UX"
   },
   "testimonials": {
     "title1": "Client",
     "title2": "Testimonials",
     "desc": "Our clients' trust is the true measure of our success.",
-    "t1_content": "An exceptional experience from start to finish. High professionalism in dealing and matchless code quality. I highly recommend working with them.",
-    "t1_role": "CEO of TechCorp",
-    "t1_name": "Ahmed Mahmoud",
-    "t2_content": "The store design exceeded our expectations by far. High performance and a seamless user experience helped double our sales in the first month.",
-    "t2_role": "Founder of BeautyLine",
-    "t2_name": "Sarah Khaled",
-    "t3_content": "A creative and professional team. High commitment to deadlines and continuous communication to guarantee the best project output.",
-    "t3_role": "Marketing Director at Global",
-    "t3_name": "Mohamed Abdullah"
+    "message": "We are currently working with our first clients to build real success stories and long-term partnerships."
   },
   "footer": {
     "desc": "We build exceptional digital experiences for the future, helping leading companies stand out in the fast-paced digital landscape.",
@@ -80,5 +81,23 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "rights": "All rights reserved."
+  },
+  "legal": {
+    "privacy_title": "Privacy Policy",
+    "privacy_content": [
+      "We are committed to protecting your privacy and ensuring the security of your data. Our policy includes:",
+      "• Collection of contact data only.",
+      "• No sharing of data with any third parties under any circumstances.",
+      "• Protection of user information using modern security measures.",
+      "• Use of data strictly for communicating about projects and services."
+    ],
+    "terms_title": "Terms of Service",
+    "terms_content": [
+      "These terms form the legal basis for providing our services:",
+      "• Full agreement on the scope of work and specifications before starting.",
+      "• Execution duration varies based on the project's scope.",
+      "• The client has the right to request revisions within the agreed terms.",
+      "• Reselling or copying works without written permission is strictly prohibited."
+    ]
   }
 }

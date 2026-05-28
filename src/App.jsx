@@ -5,8 +5,8 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
-import ProjectsSection from './components/ProjectsSection';
-import StatsSection from './components/StatsSection';
+import WhyUsSection from './components/WhyUsSection';
+// import ProjectsSection from './components/ProjectsSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import Footer from './components/Footer';
 import { useTranslation } from 'react-i18next';
@@ -97,8 +97,8 @@ function App() {
         <HeroSection />
         <AboutSection />
         <ServicesSection />
-        <ProjectsSection />
-        <StatsSection />
+        <WhyUsSection />
+        {/* <ProjectsSection /> */}
         <TestimonialsSection />
       </main>
 

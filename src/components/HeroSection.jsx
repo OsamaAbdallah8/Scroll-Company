@@ -16,42 +16,7 @@ const HeroSection = () => {
   const y2 = useTransform(scrollYProgress, [0, 1], [0, -100]);
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
 
-  // Use React.memo for the MagneticButton to prevent unnecessary re-renders
-  const MagneticButton = React.memo(({ children, className }) => {
-    const btnRef = useRef(null);
-    
-    const handleMouseMove = (e) => {
-      const btn = btnRef.current;
-      if(!btn) return;
-      const rect = btn.getBoundingClientRect();
-      const x = e.clientX - rect.left - rect.width / 2;
-      const y = e.clientY - rect.top - rect.height / 2;
-      
-      // Use requestAnimationFrame for smoother performance
-      requestAnimationFrame(() => {
-        btn.style.transform = `translate(${x * 0.15}px, ${y * 0.15}px)`;
-      });
-    };
 
-    const handleMouseLeave = () => {
-      const btn = btnRef.current;
-      if(!btn) return;
-      requestAnimationFrame(() => {
-        btn.style.transform = `translate(0px, 0px)`;
-      });
-    };
-
-    return (
-      <button
-        ref={btnRef}
-        onMouseMove={handleMouseMove}
-        onMouseLeave={handleMouseLeave}
-        className={`transition-transform duration-300 ease-out ${className}`}
-      >
-        {children}
-      </button>
-    );
-  });
 
   const textVariants = {
     hidden: { filter: 'blur(5px)', opacity: 0, y: 20 }, // Reduced blur for better mobile performance
@@ -126,20 +91,20 @@ const HeroSection = () => {
           transition={{ delay: 0.8, duration: 0.8 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full max-w-md mx-auto sm:max-w-none"
         >
-          <MagneticButton className="w-full sm:w-auto relative group">
+          <a href="https://wa.me/970597878327" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto relative group block">
             {/* Reduced opacity of blur for better GPU performance */}
             <div className="absolute -inset-1 bg-gradient-to-r from-primary to-accent rounded-full blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
-            <div className="relative px-8 py-4 bg-white text-dark rounded-full font-bold flex items-center justify-center gap-3 w-full group-hover:scale-[0.98] transition-transform">
+            <div className="relative px-8 py-4 bg-white text-dark rounded-full font-bold flex items-center justify-center gap-3 w-full group-hover:-translate-y-1 group-hover:scale-[1.02] group-hover:shadow-[0_10px_30px_rgba(255,255,255,0.3)] transition-all duration-300 ease-out">
               <span className="text-lg">{t('hero.cta1')}</span>
               {i18n.dir() === 'rtl' ? <FiArrowLeft className="group-hover:-translate-x-1 transition-transform" /> : <FiArrowRight className="group-hover:translate-x-1 transition-transform" />}
             </div>
-          </MagneticButton>
+          </a>
 
-          <MagneticButton className="w-full sm:w-auto">
-            <div className="px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full font-bold flex items-center justify-center gap-3 backdrop-blur-md transition-colors w-full">
+          <a href="https://wa.me/970597878327" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto block group">
+            <div className="px-8 py-4 bg-white/5 border border-white/10 rounded-full font-bold flex items-center justify-center gap-3 backdrop-blur-md transition-all duration-300 ease-out w-full group-hover:bg-white/10 group-hover:-translate-y-1 group-hover:scale-[1.02] group-hover:shadow-[0_10px_30px_rgba(255,255,255,0.1)]">
               <span className="text-white text-lg">{t('hero.cta2')}</span>
             </div>
-          </MagneticButton>
+          </a>
         </motion.div>
       </motion.div>
 

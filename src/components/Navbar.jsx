@@ -5,7 +5,7 @@ import { FiGlobe, FiChevronDown } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { cn } from '../utils/cn';
 
-const navKeys = ['home', 'about', 'services', 'projects', 'testimonials', 'contact'];
+const navKeys = ['home', 'about', 'services', /* 'projects', */ 'testimonials', 'contact'];
 
 const languages = [
   { code: 'ar', label: 'عربي' },
@@ -144,7 +144,7 @@ const Navbar = () => {
               </AnimatePresence>
             </div>
 
-            <a href="#contact" className="px-8 py-3 rounded-full bg-white text-dark hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300 text-base font-bold">
+            <a href="https://wa.me/970597878327" target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-full bg-white text-dark hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all duration-300 text-base font-bold">
               {t('nav.cta')}
             </a>
           </div>
